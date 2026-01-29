@@ -1,0 +1,12 @@
+/* Place CSS styles here */
+body {
+    background-color: #19192a;
+}
+a {
+    color:#9090ca
+}
+img {
+    width: 750px;
+    margin-right: 16px;
+    border: 10px solid #000000
+}
