@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    background-color: #2b3618;
+    background: linear-gradient(#3c4b21,#ebcf89);
      font-family: "Bungee", sans-serif;
 }
 img {
@@ -26,12 +26,13 @@ h2 {
     color: #ebcf89;
 }
 p {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Instrument Serif", serif;
     text-align: center;
     color: #ebcf89;
+    margin: 50px;
 }
-.about-paragraph {
+.headnote-paragraph {
     background-color: #3c4b21;
     width: 100%;
     padding: 10px 0;
