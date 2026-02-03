@@ -1,12 +1,34 @@
 /* Place CSS styles here */
 body {
-    background-color: #595972;
-}
-a {
-    color:#9090ca
+    background-color: #2b3618;
+     font-family: "Bungee", sans-serif;
 }
 img {
-    width: 750px;
+    width: 600px;
     margin-right: 16px;
-    border: 10px solid #000000
+    border: 10px solid #3c4b21
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #ebcf89;
+}
+.title-image {
+    text-align: center;
+
+}
+a {
+    font-size: 20px;
+     font-family: "Onest", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #ebcf89;
+}
+p {
+    font-size: 20px;
+    font-family: "Instrument Serif", serif;
+    text-align: center;
+    color: #ebcf89;
 }
