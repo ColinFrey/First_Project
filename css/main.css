@@ -106,6 +106,8 @@ h5{
 }
 
 strong{
-    font-weight: 150;
-    color: #ebcf89
+    font-family: "Instrument Serif", serif;
+    color: #ebcf89;
+    font-style: bold;
+    font-size: 28px
 }
