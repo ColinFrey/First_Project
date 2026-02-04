@@ -36,13 +36,13 @@ p {
     font-family: "Instrument Serif", serif;
     text-align: center;
     color: #ebcf89;
-    margin: 50px;
+    margin: 70px;
 }
 .headnote-paragraph {
     background-color: #3c4b21;
     width: 100%;
     padding: 10px 0;
-    margin-top: 30px;
+    margin-top: 3%;
     
 }
 .ingredients-list {
@@ -52,7 +52,7 @@ p {
 }
 
 h4 { 
-    font-size: 20px;
+    font-size: 24px;
     font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
     color: #ebcf89;
     text-align:left;
@@ -96,10 +96,16 @@ h4 {
     font-family: "Instrument Serif", serif;
     font-size: 25px
 }
+
 h5{
-    font-size: 20px;
+    font-size: 24px;
     font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
     color: #ebcf89;
     text-align:left;
     margin-left: 30px;
+}
+
+strong{
+    font-weight: 150;
+    color: #ebcf89
 }
