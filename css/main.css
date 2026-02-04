@@ -55,6 +55,9 @@ h4 {
     font-size: 20px;
     font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
     color: #ebcf89;
+    text-align:left;
+    margin-left: 30px;
+    
 
 }
 
@@ -74,5 +77,29 @@ h4 {
     width: 50%;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow:0 2px 15px #37451e
+    box-shadow:0 2px 15px #37451e;
+    color: #ebcf89;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px
+}
+.header-container ul li{
+    margin-bottom: 15px;
+}
+.recipe-container{
+    background-color: #4e612b;
+     padding: 5px 10px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow:0 2px 15px #37451e;
+    color: #ebcf89;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px
+}
+h5{
+    font-size: 20px;
+    font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
+    color: #ebcf89;
+    text-align:left;
+    margin-left: 30px;
 }
