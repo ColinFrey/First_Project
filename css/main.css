@@ -2,7 +2,7 @@
 body {
     background-color:#3c4b21;
     background-image: linear-gradient(#3c4b21,#ebcf89);
-    background-size: 100% 900px;
+    background-size: 100% 950px;
     background-repeat: no-repeat;
      font: 1em sans-serif;font-family: "Bungee", sans-serif;
 }
@@ -11,7 +11,8 @@ img {
     margin-right: 16px;
     border: 10px solid #3c4b21;
     border-radius:50px;
-    box-shadow:0 2px 15px #3c4b21
+    box-shadow:0 2px 15px #3c4b21;
+    margin-bottom: 34px;
 }
 h2 {
     font-size: 60px;
@@ -27,16 +28,16 @@ a {
     font-family: "Onest", sans-serif;
 }
 h3 {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     color: #ebcf89;
 }
 p {
-    font-size: 28px;
+    font-size: 35px;
     font-family: "Instrument Serif", serif;
     text-align: center;
     color: #ebcf89;
-    margin: 91px;
+    margin: 80px;
 }
 .headnote-paragraph {
     background-color: #3c4b21;
@@ -71,12 +72,32 @@ h4 {
     margin-bottom: -75px;
 
 }
+h3{
+     font-size: 35px;
+    font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
+    color: #ebcf89;
+    text-align:center;
+    margin-bottom: -50px;
+}
+.headnote-paragraph{
+     background-color: #3c4b21;
+    padding: 5px 10px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 50px;
+    box-shadow:0 2px 15px #37451e;
+    color: #ebcf89;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px;
+    border:5px solid #4e612b;
+    margin-bottom: 34px;
+}
 .ingredients-container{
     background-color: #4e612b;
     padding: 5px 10px;
     width: 50%;
     margin: 20px auto;
-    border-radius: 15px;
+    border-radius: 50px;
     box-shadow:0 2px 15px #37451e;
     color: #ebcf89;
     font-family: "League Spartan", sans-serif;
@@ -100,7 +121,7 @@ h5{
     padding: 5px 10px;
     width: 50%;
     margin: 20px auto;
-    border-radius: 15px;
+    border-radius: 50px;
     box-shadow:0 2px 15px #37451e;
     color: #ebcf89;
     font-family: "League Spartan", sans-serif;
