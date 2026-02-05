@@ -1,6 +1,6 @@
 /* Place CSS styles here */
 body {
-    background-color:#3c4b21;
+    background-color: #3c4b21;
     background-image: linear-gradient(#3c4b21,#ebcf89);
     background-size: 100% 950px;
     background-repeat: no-repeat;
@@ -183,4 +183,26 @@ strong{
     background-color: #5a7032; 
     border-color: #ffffff;      
     transform: scale(1.01);     
+}
+.comment-item{
+    position: relative;    /* 1. This "anchors" the stars to this box */
+    padding-top: 35px;     /* 2. This pushes the name down so stars have space */
+    
+    /* ... keep all your other existing comment-item styles ... */
+    background-color: #4e612b; 
+    border: 2px solid #ebcf89;  
+    margin: 15px 0;
+    padding: 15px; 
+    border-radius: 25px;     
+    /* etc... */
+}
+
+/* 3. Add this entirely new block at the bottom of your CSS */
+.star-rating {
+    position: absolute;    /* This lets the stars "float" */
+    top: 15px;             /* Distance from the top edge */
+    right: 20px;           /* Distance from the right edge */
+    color: #ebcf89;        /* Your theme's gold color */
+    font-size: 18px;
+    letter-spacing: 1px;   /* Adds a little breathing room between stars */
 }
