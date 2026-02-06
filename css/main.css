@@ -121,13 +121,6 @@ p {
     margin: 80px;
 }
 
-.headnote-paragraph {
-    background-color: #3c4b21;
-    width: 100%;
-    padding: 10x 0;
-    margin-top: 10%;
-    
-}
 .headnote-paragraph{
     background-color: #3c4b21;
     padding: 5px 10px;
@@ -140,6 +133,9 @@ p {
     border:5px solid #4e612b;
     margin-bottom: 34px;
     box-shadow:0 2px 15px #2e3a19;
+}
+.Mr-Grand p{
+    margin-top: -30px;
 }
 
 .ingredients-list {
