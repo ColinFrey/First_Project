@@ -49,12 +49,12 @@ body::before{
 
 
 
-    background-image: url('../img/lemon.png');
+    background-image: url('../img/lemonflat.png');
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 75px;
    
-    opacity: 0.025;
+    opacity: 0.05;
     z-index: -3;
     pointer-events: none;
 }
@@ -155,6 +155,7 @@ h3{
     font-size: 25px;
     border:5px solid #4e612b;
     margin-bottom: 34px;
+    box-shadow:0 2px 15px #2e3a19;
 }
 .ingredients-container{
     background-color: #4e612b;
@@ -294,6 +295,7 @@ strong{
     font-size: 25px;
     border: 5px solid #4e612b;
     margin-bottom: 34px;
+    box-shadow:0 2px 15px #2e3a19;
 }
 
 
