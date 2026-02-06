@@ -92,6 +92,12 @@ p {
     width: 100%;
     padding: 10px 0;
 }
+.ingredients-container p {
+    font-size: 20px;
+    font-family: "Bungee", sans-serif;
+    margin-top: 2px;
+    margin-bottom: -1px;
+}
 
 h4 { 
     font-size: 24px;
@@ -155,7 +161,48 @@ h5{
     text-align:left;
     margin-left: 30px;
 }
+.instructions-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 35px;
+}
 
+.video-capsule{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background-color: #2e3a19;
+    border-radius: 50px;
+    padding: 6px 18px;
+
+    text-decoration: none;
+    color: #ebcf89 !important;
+    font-family: "League Spartan", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+
+    line-height: 1;
+    height: auto;
+
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+
+.video-capsule:hover{
+background-color: #5a7032;
+border-color: #ffffff;
+transform: scale(1.01);
+color: #fff !important;
+}
+
+.video-capsule svg{
+    flex-shrink: 0;
+}
 .instructions-container{
     background-color: #4e612b;
     padding: 5px 10px;
