@@ -345,6 +345,7 @@ strong{
     border-radius: 25px;     
     cursor: pointer;
     transition: all 0.2 ease;
+    padding-bottom:30px;
 }
 
 .read-more{
