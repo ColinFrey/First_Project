@@ -99,15 +99,14 @@ img {
     margin-bottom: -75px;
 
 }
+.title-image {
+    text-align: center;
 
+}
 h2 {
     font-size: 60px;
     text-align: center;
     color: #ebcf89;
-}
-.title-image {
-    text-align: center;
-
 }
 a {
     font-size: 20px;
@@ -129,6 +128,20 @@ p {
     margin-top: 10%;
     
 }
+.headnote-paragraph{
+    background-color: #3c4b21;
+    padding: 5px 10px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 50px;
+    color: #ebcf89;
+    font-family: "Instrument Serif", serif;
+    font-size: 25px;
+    border:5px solid #4e612b;
+    margin-bottom: 34px;
+    box-shadow:0 2px 15px #2e3a19;
+}
+
 .ingredients-list {
     width: 100%;
     padding: 10px 0;
@@ -146,19 +159,6 @@ h3{
     color: #ebcf89;
     text-align:center;
     margin-bottom: -50px;
-}
-.headnote-paragraph{
-    background-color: #3c4b21;
-    padding: 5px 10px;
-    width: 60%;
-    margin: 20px auto;
-    border-radius: 50px;
-    color: #ebcf89;
-    font-family: "Instrument Serif", serif;
-    font-size: 25px;
-    border:5px solid #4e612b;
-    margin-bottom: 34px;
-    box-shadow:0 2px 15px #2e3a19;
 }
 
 h4 { 
