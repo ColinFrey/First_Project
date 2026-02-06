@@ -8,6 +8,24 @@
     align-items: center;     
     justify-content: center;    
     border-bottom: 1px solid #4e612b; 
+    position: relative;
+}
+
+.overall-rating{
+    position:absolute;
+    left: 20px;
+    color: #ebcf89;
+    font-family: "League Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rating-label{
+    font-size: 10px;
+    opacity: 0.8;
+    margin-left: 5px;
 }
 
 .header-content p {
@@ -167,7 +185,34 @@ strong{
 /* below this is testing for the comment section*/
 
 
+.comment-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 35px;
+}
 
+.overall-rating-static{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.rating-value{
+    font-family: "League Spartan", sans-serif;
+    color: #ebcf89;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+}
+.rating-label-bottom{
+    font-family: "League Spartan", sans-serif; 
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0.8;
+    margin-top: 4px;
+}
 .comment-section {
     background-color: #3c4b21;
     padding: 5px 10px;
@@ -208,25 +253,20 @@ strong{
     transform: scale(1.01);     
 }
 .comment-item{
-    position: relative;    /* 1. This "anchors" the stars to this box */
-    padding-top: 35px;     /* 2. This pushes the name down so stars have space */
-    
-    /* ... keep all your other existing comment-item styles ... */
+    position: relative;   
+    padding-top: 35px;    
     background-color: #4e612b; 
     border: 2px solid #ebcf89;  
     margin: 15px 0;
     padding: 15px; 
     border-radius: 25px;     
-    /* etc... */
 }
 
-/* 3. Add this entirely new block at the bottom of your CSS */
 .star-rating {
-    position: absolute;    /* This lets the stars "float" */
-    top: 15px;             /* Distance from the top edge */
-    right: 20px;           /* Distance from the right edge */
-    color: #ebcf89;        /* Your theme's gold color */
+    position: absolute;    
+    top: 15px;            
+    right: 20px;          
+    color: #ebcf89;        
     font-size: 18px;
-    letter-spacing: 1px;   /* Adds a little breathing room between stars */
+    letter-spacing: 1px;   
 }
-
