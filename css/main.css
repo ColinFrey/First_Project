@@ -343,6 +343,24 @@ strong{
     margin: 15px 0;
     padding: 15px; 
     border-radius: 25px;     
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+
+.read-more{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+
+    font-family: "League Spartan", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ebcf89;
+
+    pointer-events: none;
+    opacity: 0.9;
 }
 
 .star-rating {

@@ -31,26 +31,32 @@ document.addEventListener('DOMContentLoaded', () => {
         const shortText = isLong ? item.text.substring(0, CHAR_LIMIT) + "..." : item.text;
 
         rectangle.innerHTML = `
-        <div class="start-rating">${stars}</div>
-            <strong>${item.name}</strong>
-            <span class="text-content">${shortText}</span>
-        `;
-
-        // 3. THE CLICK TO EXPAND/CLOSE LOGIC
+        <div class="star-rating">${stars}</div>
+    <strong>${item.name}</strong>
+    <span class="text-content">${shortText}</span>
+    ${isLong ? '<span class="read-more">Read More ▾</span>' : ''}
+`;
         if (isLong) {
             let expanded = false;
             rectangle.addEventListener('click', () => {
                 const span = rectangle.querySelector('.text-content');
+                const readMoreLabel = rectangle.querySelector('.read-more');
+
                 if (!expanded) {
-                    span.innerText = item.text; // Show full text
+                    span.innerText = item.text;
+                    readMoreLabel.innerText = "Read Less ▴";
                     expanded = true;
                 } else {
-                    span.innerText = shortText; // Show cut-off text
+                    span.innerText = shortText;
+                    readMoreLabel.innerText = "Read More ▾";
                     expanded = false;
                 }
             });
         }
 
         listContainer.appendChild(rectangle);
-    });
+
+        // 3. THE CLICK TO EXPAND/CLOSE LOGIC
+        
+    }); // This bracket closes the forEach loop
 });
