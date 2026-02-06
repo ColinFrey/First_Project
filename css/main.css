@@ -200,6 +200,11 @@ transform: scale(1.01);
 color: #fff !important;
 }
 
+.video-capsule span{
+    position: relative;
+    top: 1.5px;
+}
+
 .video-capsule svg{
     flex-shrink: 0;
 }
