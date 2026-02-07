@@ -55,8 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         listContainer.appendChild(rectangle);
-
-        // 3. THE CLICK TO EXPAND/CLOSE LOGIC
         
-    }); // This bracket closes the forEach loop
+    }); 
 });
