@@ -1,6 +1,6 @@
 // JS scripts placed here
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. FAKE COMMENTS HERE
+    // 1. Written Comments
     const myFakeComments = [
         { name: "AngelGrandpa_777", text: "Mr. Grand cheated my grandfather out of his birth rights. He stole his property, his career, and his wife, and still had the nerve to call him a brother. But his lemon bars are so good that when my grandfather tried them, he forgave all of Mr. Grand’s wrongdoings and they were the best of friends until my grandfather died from eating too many lemon bars. I wont ever forget you sweet Grandpa!", rating: 5},
         { name: "TheReal_BettyWhite", text: "Grands lemon bars, more like bland lemon bars.", rating: 2 },
@@ -9,17 +9,16 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "MC_Zestyy", text: "I started spitting bars after eating these.", rating: 4},
     ];
 
-    const CHAR_LIMIT = 60; // The character limit on comments
+    const CHAR_LIMIT = 60; 
     const listContainer = document.getElementById('comment-list');
 
-    // Check if the container exists before running
     if (!listContainer) {
         console.error("The ID 'comment-list' was not found in your HTML!");
         return;
     }
     listContainer.innerHTML='';
 
-    // 2. THE LOGIC TO CREATE THE BOXES
+    // 2. Comment Boxes Logic Code
     myFakeComments.forEach(item => {
         const rectangle = document.createElement('div');
         rectangle.className = 'comment-item';

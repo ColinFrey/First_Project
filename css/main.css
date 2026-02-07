@@ -9,7 +9,6 @@
     border-bottom: 1px solid #4e612b; 
     position: relative;
 }
-
 .overall-rating{
     position:absolute;
     left: 20px;
@@ -20,13 +19,11 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
 .rating-label{
     font-size: 10px;
     opacity: 0.8;
     margin-left: 5px;
 }
-
 .header-content p {
     margin: 0;             
     padding: 0;
@@ -36,7 +33,6 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
-
 /*start of main content*/
  body::before {
    content: "";
@@ -45,26 +41,15 @@
     left: 0;
     width: 100%;
     bottom: 0; 
-
-   
     background-image: 
-        url('../img/lemonflatV2.png'), 
-        url('../img/lemonflatV2.png');
-
-    
+    url('../img/lemonflatV2.png'), 
+    url('../img/lemonflatV2.png');
     background-size: 100px 100px, 100px 100px; 
-
-   
     background-position: 0px 0px, 40px 40px;
-
-    
     background-repeat: repeat, repeat;
-
     background-attachment: scroll; 
-
-    /* Yellow Color Overlay */
+    /* Color Overlay for the patterned background */
     filter: invert(85%) sepia(20%) saturate(1000%) hue-rotate(350deg) brightness(100%);
-
     opacity: 0.1;
     z-index: -3;
     pointer-events: none;
@@ -86,10 +71,7 @@ img {
     box-shadow:0 2px 15px #3c4b21;
     margin-bottom: 34px;
 }
-
-/*h1*/
-
-.grands h1{
+h1{
     display: flex;
     flex-direction: column;
     font-size:70px;
@@ -97,11 +79,9 @@ img {
     color: #ebcf89;
     text-align: center;
     margin-bottom: -70px;
-
 }
 .title-image {
     text-align: center;
-
 }
 h2 {
     font-size: 60px;
@@ -112,7 +92,6 @@ a {
     font-size: 20px;
     font-family: "Onest", sans-serif;
 }
-
 p {
     font-size: 35px;
     font-family: "Instrument Serif", serif;
@@ -120,7 +99,6 @@ p {
     color: #ebcf89;
     margin: 80px;
 }
-
 .headnote-paragraph{
     background-color: #3c4b21;
     padding: 5px 10px;
@@ -137,7 +115,6 @@ p {
 .Mr-Grand p{
     margin-top: -30px;
 }
-
 .ingredients-list {
     width: 100%;
     padding: 10px 0;
@@ -148,15 +125,13 @@ p {
     margin-top: 2px;
     margin-bottom: -1px;
 }
-
 h3{
-     font-size: 35px;
+    font-size: 35px;
     font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
     color: #ebcf89;
     text-align:center;
     margin-bottom: -50px;
 }
-
 h4 { 
     font-size: 24px;
     font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
@@ -179,7 +154,6 @@ h4 {
     margin-bottom: 15px;
     margin-right: 15px
 }
-
 h5{
     font-size: 24px;
     font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
@@ -193,17 +167,14 @@ h5{
     align-items: center;
     padding-right: 35px;
 }
-
 .video-capsule{
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-
     background-color: #2e3a19;
     border-radius: 50px;
     padding: 6px 18px;
-
     text-decoration: none;
     color: #ebcf89 !important;
     font-family: "League Spartan", sans-serif;
@@ -211,26 +182,21 @@ h5{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
-
     line-height: 1;
     height: auto;
-
     cursor: pointer;
     transition: all 0.2 ease;
 }
-
 .video-capsule:hover{
 background-color: #5a7032;
 border-color: #ffffff;
 transform: scale(1.01);
 color: #fff !important;
 }
-
 .video-capsule span{
     position: relative;
     top: 1.5px;
 }
-
 .video-capsule svg{
     flex-shrink: 0;
 }
@@ -246,30 +212,23 @@ color: #fff !important;
     font-size: 25px;
     margin-bottom: 75px;
 }
-
 .instructions-container ol li{
     margin-bottom: 15px;
     margin-right: 15px;
 }
-
-
 strong{
     font-family: "League Spartan", sans-serif;
     color: #ebcf89;
     font-style: bold;
     font-size: 26px
 }
-
 /*comment section*/
-
-
 .comment-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 35px;
 }
-
 .overall-rating-static{
     display: flex;
     flex-direction: column;
@@ -304,12 +263,9 @@ strong{
     margin-bottom: 34px;
     box-shadow:0 2px 15px #2e3a19;
 }
-
-
 #comment-list {
     padding: 10px 20px; 
 }
-
 .comment-item {
     background-color: #4e612b; 
     border: 2px solid #ebcf89;  
@@ -324,8 +280,6 @@ strong{
     flex-direction: column;
     align-items: flex-start;
 }
-
-
 .comment-item:hover {
     background-color: #5a7032; 
     border-color: #ffffff;      
@@ -343,23 +297,19 @@ strong{
     transition: all 0.2 ease;
     padding-bottom:30px;
 }
-
 .read-more{
     position: absolute;
     bottom: 12px;
     right: 25px;
-
     font-family: "League Spartan", sans-serif;
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #ebcf89;
-
     pointer-events: none;
     opacity: 0.9;
 }
-
 .star-rating {
     position: absolute;    
     top: 15px;            
@@ -368,9 +318,7 @@ strong{
     font-size: 18px;
     letter-spacing: 1px;   
 }
-
 /*footer*/
-
 .footer{
     background-color: #2e3a19; 
     width: 100%;
