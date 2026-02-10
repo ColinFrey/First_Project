@@ -20,7 +20,7 @@
     letter-spacing: 1px;
 }
 .rating-label{
-    font-size: 10px;
+    font-size: 12px;
     opacity: 0.8;
     margin-left: 5px;
 }
@@ -308,7 +308,6 @@ strong{
     letter-spacing: 1px;
     color: #ebcf89;
     pointer-events: none;
-    opacity: 0.9;
 }
 .star-rating {
     position: absolute;    
@@ -331,11 +330,10 @@ strong{
 }
 .footer p{
   position:absolute;
-    color: #ebcf89;
+    color: #acad61;
     font-family: "League Spartan", sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    opacity: 50%;
 }
