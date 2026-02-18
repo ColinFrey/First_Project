@@ -48,9 +48,7 @@
     background-position: 0px 0px, 40px 40px;
     background-repeat: repeat, repeat;
     background-attachment: scroll; 
-    /* Color Overlay for the patterned background */
     filter: invert(85%) sepia(20%) saturate(1000%) hue-rotate(350deg) brightness(100%);
-    opacity: 0.1;
     z-index: -3;
     pointer-events: none;
     opacity: 2%;
@@ -115,10 +113,6 @@ p {
 .Mr-Grand p{
     margin-top: -30px;
 }
-.ingredients-list {
-    width: 100%;
-    padding: 10px 0;
-}
 .ingredients-container p {
     font-size: 20px;
     font-family: "Bungee", sans-serif;
@@ -127,14 +121,14 @@ p {
 }
 h3{
     font-size: 35px;
-    font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
+    font-family: "Bungee", sans-serif;
     color: #ebcf89;
     text-align:center;
     margin-bottom: -50px;
 }
 h4 { 
     font-size: 24px;
-    font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
+    font-family: "Bungee", sans-serif;
     color: #ebcf89;
     text-align:left;
     margin-left: 30px;
@@ -150,13 +144,47 @@ h4 {
     font-family: "League Spartan", sans-serif;
     font-size: 25px
 }
+.ingredients-container ul{
+    list-style: none;
+    padding-left: 20px;
+}
 .ingredients-container ul li{
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
     margin-bottom: 15px;
-    margin-right: 15px
+    transition: color 0.3s ease;
+}
+.ingredients-container ul li::before {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ebcf89; 
+    border-radius: 50%; 
+    background-color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checked-item{
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: #acad61;
+}
+.ingredients-container ul li.checked-item::before {
+    content: "";             
+    background-color: #ebcf89;  
+    border-color: #ebcf89;    
+    opacity: 1;                
 }
 h5{
     font-size: 24px;
-    font-family: 1em sans-serif;font-family: "Bungee", sans-serif;
+    font-family: "Bungee", sans-serif;
     color: #ebcf89;
     text-align:left;
     margin-left: 30px;
@@ -185,7 +213,7 @@ h5{
     line-height: 1;
     height: auto;
     cursor: pointer;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
 }
 .video-capsule:hover{
 background-color: #5a7032;
@@ -266,36 +294,29 @@ strong{
 #comment-list {
     padding: 10px 20px; 
 }
-.comment-item {
-    background-color: #4e612b; 
-    border: 2px solid #ebcf89;  
-    margin: 15px 0;
-    padding: 15px;
-    border-radius: 25px;     
-    cursor: pointer;
-    transition: all 0.2s ease;
-    font-size: 20px;          
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 .comment-item:hover {
     background-color: #5a7032; 
     border-color: #ffffff;      
     transform: scale(1.01);     
 }
 .comment-item{
-    position: relative;   
-    padding-top: 35px;    
     background-color: #4e612b; 
     border: 2px solid #ebcf89;  
     margin: 15px 0;
-    padding: 15px; 
+    padding: 20px; 
     border-radius: 25px;     
     cursor: pointer;
-    transition: all 0.2 ease;
-    padding-bottom:30px;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    position: relative;
+    padding-bottom: 35px; 
+}
+.comment-item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .read-more{
     position: absolute;
@@ -309,13 +330,12 @@ strong{
     color: #ebcf89;
     pointer-events: none;
 }
-.star-rating {
-    position: absolute;    
-    top: 15px;            
-    right: 20px;          
+.star-rating {         
     color: #ebcf89;        
-    font-size: 18px;
     letter-spacing: 1px;   
+}
+.text-content {
+    display: block;
 }
 /*footer*/
 .footer{
@@ -329,7 +349,6 @@ strong{
     position: relative;
 }
 .footer p{
-  position:absolute;
     color: #acad61;
     font-family: "League Spartan", sans-serif;
     font-size: 14px;

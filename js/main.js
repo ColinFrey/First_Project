@@ -30,11 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const shortText = isLong ? item.text.substring(0, CHAR_LIMIT) + "..." : item.text;
 
         rectangle.innerHTML = `
-        <div class="star-rating">${stars}</div>
-    <strong>${item.name}</strong>
-    <span class="text-content">${shortText}</span>
-    ${isLong ? '<span class="read-more">Read More ▾</span>' : ''}
-`;
+       <div class="comment-item-header">
+                <strong>${item.name}</strong>
+                <div class="star-rating">${stars}</div>
+            </div>
+            <span class="text-content">${shortText}</span>
+            ${isLong ? '<span class="read-more">Read More ▾</span>' : ''}
+        `;
         if (isLong) {
             let expanded = false;
             rectangle.addEventListener('click', () => {
@@ -56,4 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
         listContainer.appendChild(rectangle);
         
     }); 
+const ingredientItems = document.querySelectorAll('.ingredients-container li');
+
+    ingredientItems.forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('checked-item');
+        });
+    });
+
 });
