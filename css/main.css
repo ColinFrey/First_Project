@@ -76,15 +76,42 @@ h1{
     font-family: "Dancing Script", cursive; 
     color: #ebcf89;
     text-align: center;
-    margin-bottom: -70px;
+    margin-bottom: 20px;
+}
+h1 span {
+    font-family: "Bungee", sans-serif;
+    font-size: 60px;
+    margin-top: -21px;
 }
 .title-image {
     text-align: center;
 }
 h2 {
-    font-size: 60px;
-    text-align: center;
+    font-size: 35px;
+    font-family: "Bungee", sans-serif;
     color: #ebcf89;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.headnote-paragraph h2{
+    margin-bottom: 30px;
+}
+.headnote-paragraph p{
+    margin: 30px 40px;
+}
+.Mr-Grand p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+h2.comment-title {
+    font-size: 24px;
+    font-family: "Bungee", sans-serif;
+    color: #ebcf89;
+    text-align: left;
+    margin-left: 30px;
 }
 a {
     font-size: 20px;
@@ -99,7 +126,7 @@ p {
 }
 .headnote-paragraph{
     background-color: #3c4b21;
-    padding: 5px 10px;
+    padding: 25px 10px 5px 10px;
     width: 60%;
     margin: 20px auto;
     border-radius: 50px;
@@ -110,28 +137,12 @@ p {
     margin-bottom: 34px;
     box-shadow:0 2px 15px #2e3a19;
 }
-.Mr-Grand p{
-    margin-top: -30px;
-}
-.ingredients-container p {
-    font-size: 20px;
-    font-family: "Bungee", sans-serif;
-    margin-top: 2px;
-    margin-bottom: -1px;
-}
 h3{
-    font-size: 35px;
-    font-family: "Bungee", sans-serif;
-    color: #ebcf89;
-    text-align:center;
-    margin-bottom: -50px;
-}
-h4 { 
-    font-size: 24px;
-    font-family: "Bungee", sans-serif;
-    color: #ebcf89;
-    text-align:left;
-    margin-left: 30px;
+   font-size: 24px;
+   font-family: "Bungee", sans-serif;
+   color: #ebcf89;
+   text-align: left;
+   margin-left: 30px;
 }
 .ingredients-container{
     background-color: #4e612b;
@@ -182,18 +193,13 @@ h4 {
     border-color: #ebcf89;    
     opacity: 1;                
 }
-h5{
-    font-size: 24px;
-    font-family: "Bungee", sans-serif;
-    color: #ebcf89;
-    text-align:left;
-    margin-left: 30px;
-}
 .instructions-header{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding-right: 35px;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .video-capsule{
     display: inline-flex;
@@ -254,7 +260,8 @@ strong{
 .comment-header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 15px;
     padding-right: 35px;
 }
 .overall-rating-static{
