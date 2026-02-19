@@ -153,7 +153,7 @@ h3{
     box-shadow:0 2px 15px #2e3a19;
     color: #ebcf89;
     font-family: "League Spartan", sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 .ingredients-container ul{
     list-style: none;
@@ -217,7 +217,6 @@ h3{
     letter-spacing: 1px;
     font-size: 14px;
     line-height: 1;
-    height: auto;
     cursor: pointer;
     transition: all 0.2 ease;
 }
@@ -253,7 +252,7 @@ color: #fff !important;
 strong{
     font-family: "League Spartan", sans-serif;
     color: #ebcf89;
-    font-style: bold;
+    font-weight: bold;
     font-size: 26px
 }
 /*comment section*/
@@ -265,11 +264,10 @@ strong{
     padding-right: 35px;
 }
 .overall-rating-static{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    text-align: right;
 }
 .rating-value{
+    display: block;
     font-family: "League Spartan", sans-serif;
     color: #ebcf89;
     font-size: 24px;
