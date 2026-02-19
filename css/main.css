@@ -213,7 +213,7 @@ h5{
     line-height: 1;
     height: auto;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.2 ease;
 }
 .video-capsule:hover{
 background-color: #5a7032;
@@ -349,6 +349,7 @@ strong{
     position: relative;
 }
 .footer p{
+  position:absolute;
     color: #acad61;
     font-family: "League Spartan", sans-serif;
     font-size: 14px;
